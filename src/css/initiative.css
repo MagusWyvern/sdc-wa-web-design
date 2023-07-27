@@ -18,7 +18,8 @@
     background-color: var(--primary-red);
     color: var(--white);
     text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    padding-bottom: 5rem;
   }
   
   h1 {
@@ -38,7 +39,8 @@
     list-style: none;
     margin: 0;
     display: flex;
-  }
+    align-items: center;
+}
   
   nav ul li {
     margin: 0 10px;
@@ -83,6 +85,46 @@
   .initiative img {
     max-width: 100%;
     height: auto;
+  }
+
+  .sdg-icons {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 20px;
+  }
+  
+  .sdg-icons img {
+    width: 150px; /* Adjust the width of the SDG icons as needed */
+    height: auto;
+    margin: 0 5px; /* Adjust the spacing between the icons */
+  }
+
+  .sdg-goals-info {
+    padding: 20px;
+  }
+  
+  .sdg-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .sdg-info {
+    background-color: var(--light-grey);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .sdg-info strong {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--primary-red);
+    margin-bottom: 10px;
+  }
+  
+  .sdg-info p {
+    margin: 0;
   }
   
   .contact-form {
@@ -132,11 +174,16 @@
     padding: 1rem 0;
   }
   
-  .logo {
+
+.logo {
     display: block;
     text-align: center;
-    margin: 20px 0;
-  }
+}
+
+.logo img {
+    height: auto;
+    padding-top: 10px;
+}
   
   .initiative-content {
     padding: 20px;
