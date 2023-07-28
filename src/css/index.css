@@ -17,7 +17,8 @@ header {
     background-color: var(--primary-red);
     color: var(--white);
     text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    padding-bottom: 5rem;
 }
 
 h1 {
@@ -35,7 +36,6 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
@@ -50,31 +50,63 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Apply special styles to the Home link */
 nav ul li.home-link {
     margin-left: 10px;
 }
 
-/* Push the other links to the right side */
-nav ul {
-    margin-right: 10px;
+.logo {
+    display: block;
+    text-align: center;
+  }
+  
+  .logo img {
+    height: auto;
+    padding-top: 10px;
+  }
+
+
+iframe {
+    margin: 0 10px;
+}
+
+iframe:first-child {
+    margin-left: 0;
+}
+
+iframe:last-child {
+    margin-right: 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-text {
-    padding: 20px;
     color: var(--dark-grey);
+    padding-left: 80px;
+    padding-right: 40px;
 }
 
 .initiatives-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .initiative {
-    background-color: var(--white);
+    background-color: var(--dark-grey);
     padding: 1rem;
+    color: var(--white);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 0 var(--white);
+}
+
+.initiative:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 20px var(--primary-red);
 }
 
 .initiative h2 {
@@ -85,11 +117,27 @@ nav ul {
 
 .initiative p {
     margin: 0;
+    margin-bottom: 1rem;
+
 }
 
 .initiative img {
     max-width: 100%;
     height: auto;
+}
+
+.initiative a {
+    color: var(--primary-red);
+    text-decoration: none;
+    border: var(--primary-red) 1px solid;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.initiative a:hover {
+    background-color: var(--primary-red);
+    color: white;
 }
 
 .contact-section {
@@ -160,8 +208,19 @@ footer {
     padding: 1rem 0;
 }
 
-.logo {
-    display: block;
-    text-align: center;
-    margin: 20px 0;
+
+
+.sdg-icons {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 20px;
+}
+
+.sdg-icons img {
+    width: 100px;
+    /* Adjust the width of the SDG icons as needed */
+    height: auto;
+    margin: 0 5px;
+    /* Adjust the spacing between the icons */
 }
