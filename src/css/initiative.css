@@ -3,7 +3,7 @@
   --primary-red: #ed1d24;
   --dark-grey: #333;
   --white: #fff;
-  --light-grey: #f1f1f1;
+  --light-grey: #cecece;
   --dark-red: #660000;
 }
 
@@ -190,7 +190,8 @@ footer {
 
 
 .initiative-content {
-  padding: 20px;
+  padding-left: 80px;
+  padding-right: 40px;
 }
 
 /* Styles for the first initiative's page */
