@@ -180,10 +180,14 @@ nav ul li.home-link {
 }
 
 footer {
-  background-color: var(--dark-grey);
-  color: var(--white);
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
   text-align: center;
-  padding: 1rem 0;
+}
+
+footer a {
+  color: #fff;
 }
 
 
