@@ -1,5 +1,4 @@
 :root {
-  /* Sunway Group's primary colors */
   --primary-red: #ed1d24;
   --dark-grey: #333;
   --white: #fff;
@@ -65,51 +64,14 @@ nav ul li.home-link {
   padding-top: 10px;
 }
 
-.intro-text {
-  padding: 20px;
-  color: var(--dark-grey);
-}
-
-.initiatives-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-
-.initiative {
-  background-color: var(--white);
-  padding: 1rem;
-}
-
-.initiative h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: var(--primary-red);
-}
-
-.initiative p {
-  margin: 0;
-}
-
-.initiative img {
-  max-width: 100%;
-  height: auto;
-}
-
 .sdg-icons {
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
   margin-bottom: 20px;
 }
 
 .sdg-icons img {
-  width: 150px;
-  /* Adjust the width of the SDG icons as needed */
+  width: 100px;
   height: auto;
   margin: 0 5px;
-  /* Adjust the spacing between the icons */
 }
 
 .sdg-goals-info {
@@ -139,46 +101,6 @@ nav ul li.home-link {
   margin: 0;
 }
 
-.contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: var(--light-grey);
-}
-
-.contact-form h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: var(--primary-red);
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.contact-form button {
-  background-color: var(--primary-red);
-  color: var(--white);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background-color: var(--dark-red);
-}
-
 footer {
   background-color: #333;
   color: #fff;
@@ -191,14 +113,10 @@ footer a {
 }
 
 
-
-
 .initiative-content {
   padding-left: 80px;
   padding-right: 40px;
 }
-
-/* Styles for the first initiative's page */
 
 .how-to-participate {
   padding-left: 80px;
@@ -218,4 +136,30 @@ footer a {
 
 .how-to-participate li {
   margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+
+  nav ul {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 5px 0;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li.home-link {
+    margin-left: 10px;
+  }
+
+  .sdg-icons {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .sdg-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

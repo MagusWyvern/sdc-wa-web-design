@@ -140,6 +140,16 @@ iframe {
     margin: 0 5px;
 }
 
+.sdg-icons2 {
+    margin-bottom: 20px;
+}
+
+.sdg-icons2 img {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+}
+
 .contact-section {
     display: flex;
     justify-content: space-between;
@@ -243,6 +253,15 @@ footer a {
     }
 
     .sdg-icons img {
+        margin: 5px;
+    }
+
+    .sdg-icons2 {
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+
+    .sdg-icons2 img {
         margin: 5px;
     }
 
