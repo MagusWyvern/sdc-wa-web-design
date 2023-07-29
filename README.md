@@ -1,4 +1,20 @@
 ## Sunway College WA: Web Design Competition
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec2ae088-2502-4e09-a40f-1bd61e9a8f13/deploy-status)](https://app.netlify.com/sites/lambent-rabanadas-0b297c/deploys)
+
+MARA Junior Science College Gemencheh SDC Webmaster Apprentice Project 2023
+
+Designated Team Name: GeekHub
+
+Team Members:
+
+1. Adi Ahmad Danish
+2. Muadz 
+3. Hilman
+
+The project is live! Hosted on Netlify @ https://sdc-wa-geekhub.netlify.app/
+
+
+## Overview
 
 In this competition, teams of 3 individuals are required to design and publish a website that includes a
 homepage and web page that is aligned with SDG initiatives to promote awareness.
