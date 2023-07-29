@@ -201,7 +201,8 @@ footer a {
 /* Styles for the first initiative's page */
 
 .how-to-participate {
-  padding: 20px;
+  padding-left: 80px;
+  padding-right: 40px;
 }
 
 .how-to-participate h2 {
