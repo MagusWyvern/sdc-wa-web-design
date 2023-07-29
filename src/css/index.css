@@ -57,12 +57,12 @@ nav ul li.home-link {
 .logo {
     display: block;
     text-align: center;
-  }
-  
-  .logo img {
+}
+
+.logo img {
     height: auto;
     padding-top: 10px;
-  }
+}
 
 
 iframe {
@@ -81,6 +81,7 @@ iframe:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5rem;
 }
 
 .intro-text {
